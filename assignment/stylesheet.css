@@ -1,19 +1,23 @@
-header {
-   background-color: darkolivegreen;
-   color: antiquewhite;
-   text-align: center;
-}
-
-main {
-    background-color: lightgrey;
-    padding: 1em;
-}
-
 body {
+    margin: 0;
+}
+
+.primeBody {
     background-image: url( "record.png" );
     /* The question in the readme indicates we should repeat the
     image to fill the body of the page, however that is the default setting.
     In this case I will repeat only horizontally to indicate understanding. */
     background-repeat: repeat-x; 
-    margin: 0;
+}
+
+.primeHeader {
+    background-color: darkolivegreen;
+    color: antiquewhite;
+    text-align: center;
+ }
+ 
+
+.primeMain {
+    background-color: lightgrey;
+    padding: 1em;
 }
